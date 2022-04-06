@@ -121,8 +121,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 140599865}
+  - component: {fileID: 140599866}
   m_Layer: 0
-  m_Name: SpawnManager
+  m_Name: GameManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -142,6 +143,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &140599866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 140599864}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5de569528fed47258aa7d194e61d28f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targets:
+  - {fileID: 2483899494170144175, guid: cef3a3d024ef84f7da93e6be11afec33, type: 3}
+  - {fileID: 8699746856389660257, guid: ffb40020c2c594058bf5f4858d235597, type: 3}
+  - {fileID: 4785479350365560365, guid: c9fff33114ab94802a06e1f95d111454, type: 3}
+  - {fileID: 7906499176922845480, guid: 4dde77b10531f401aadbbd2ded9a9b3f, type: 3}
 --- !u!1 &170076733
 GameObject:
   m_ObjectHideFlags: 0
